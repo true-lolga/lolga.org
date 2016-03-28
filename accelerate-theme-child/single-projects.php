@@ -28,7 +28,7 @@ get_header(); ?>
 			<article class="project">
                 <aside class="project-sidebar">
 				    <h2><?php the_title(); ?></h2>
-                    <h8><?php echo $services; ?></h8>
+                    <h5><?php echo $services; ?></h5>
                     <h4>Client: <?php echo $client; ?></h4>
 
                     <?php the_content(); ?>

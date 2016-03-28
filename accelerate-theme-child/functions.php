@@ -26,7 +26,7 @@
  */
 
 function create_custom_post_types() {
-    register_post_type( 'project',
+    register_post_type( 'projects',
         array(
             'labels' => array(
                 'name' => __( 'Projects' ),

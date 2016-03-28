@@ -18,7 +18,22 @@
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
+    height: 30px;
 }
+
+#page #masthead {
+    background: none repeat scroll 0 0 #37B3F1;
+    height: 30px;
+} 
+
+
+#masthead nav {
+     display: flex;
+}
+
+/* #masthead a {
+	text-align: center;
+} */
 
 #masthead nav ul li {
 	float: left;
@@ -77,9 +92,9 @@ div.project-images img {
 	border: 1px solid #dddddd;
 }
 
-h8 {
+aside.project-sidebar h5 {
 	font-size: 16px;
-	color: gray;
+	color: #9C9C9C;
 }
 
 /* Featured work */
@@ -152,10 +167,101 @@ div.front-page-text {
 
 /*About me */
 
-img.alignnone-size-medium-wp-image-47359 {
- float: left;
+/*article.bio {
+	margin:40px 0 0;
+}*/
+
+
+aside.bio-sidebar {
+	float: left;
+	width: 60%;
+	margin: 0 20px 0 0;
 }
 
-div.about-me {
-	float: left;
+aside.bio-sidebar a {
+    font-weight: bolder;
+    color: #37B3F1;
+
+}
+
+div.bio-images {
+	float: right;
+	width: 35%;
+	
+}
+
+div.bio-images img {
+	margin-top: 20%;
+	
+}
+
+/* Contact Me*/
+#content {
+	width: 80%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+
+#ninja_forms_field_1_div_wrap {
+    width: 48%;
+    display: inline-block;
+    
+}
+
+
+#ninja_forms_field_2_div_wrap {
+	width: 48%;
+    display: inline-block;
+    float: right;
+
+}
+
+#ninja_forms_field_3_div_wrap {
+    width: 100%;
+
+}
+
+
+#nf_submit_1 {
+	float: right;
+	
+}
+
+#ninja_forms_field_5 {
+	background-color: #37B3F1;
+	color: white;
+	border-color: #37B3F1;
+	width: 220px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#ninja_forms_field_1_label {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#ninja_forms_field_2_label {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#ninja_forms_field_3_label {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#ninja_forms_form_1_response_msg {
+	
+	font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+#ninja_forms_form_1_response_msg p {
+	margin: 150px;
 }
