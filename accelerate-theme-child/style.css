@@ -267,3 +267,35 @@ div.bio-images img {
 #ninja_forms_form_1_response_msg p {
 	margin: 150px;
 }
+
+/* Footer */
+
+
+.social-media-navigation {
+	margin-right: 10%;
+
+}
+
+.social-media-navigation ul {
+	list-style: none;
+    display: inline-flex;
+    width: 500px;
+}
+
+.social-media-navigation li {
+	margin-left: 10px;
+}
+
+/*.social-media-navigation a {
+	width: 80px;
+}*/
+
+aside.project-arch-sidebar p {
+    margin-top: 24px;
+    
+}
+
+aside.project-arch-sidebar {
+    display: inline-block;
+    width: 40%;
+}

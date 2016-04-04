@@ -33,7 +33,7 @@ get_header(); ?>
             <?php query_posts('posts_per_page=3&post_type=projects'); ?>
             <?php while ( have_posts() ) : the_post(); 
                 $image_1 = get_field("image_1");
-                $size = "medium"
+                $size = "featured-size"
              ?>
             <li class="individual-featured-work">
                 <figure>

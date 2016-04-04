@@ -39,3 +39,5 @@ function create_custom_post_types() {
     );
 }
 add_action( 'init', 'create_custom_post_types' );
+
+add_image_size( 'featured-size', 300, 140 );
