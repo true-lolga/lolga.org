@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The Sidebar containing the main widget area
  *
@@ -57,4 +57,4 @@
 				</div>
 		<?php } ?>
 	
-</aside>
+</aside> 
