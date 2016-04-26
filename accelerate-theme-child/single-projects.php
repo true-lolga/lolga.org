@@ -29,11 +29,11 @@ get_header(); ?>
                 <aside class="project-sidebar">
 				    <h2><?php the_title(); ?></h2>
                     <h5><?php echo $services; ?></h5>
-                    <h4>Client: <?php echo $client; ?></h4>
+                    <h4><?php _e("[:en]Client: [:ru]Клиент: [:]"); ?> <?php echo $client; ?></h4>
 
                     <?php the_content(); ?>
 
-                    <p><strong><a href="<?php echo $link; ?>">Visit life site</a></strong></p>
+                    <p><strong><a href="<?php echo $link; ?>"><?php _e("[:en]Visit life site[:ru]Посетить сайт[:]"); ?></a></strong></p>
 
                 </aside>
 

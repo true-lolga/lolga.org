@@ -23,7 +23,7 @@ get_header(); ?>
                     <h5><?php echo $services; ?></h5>
                     <?php the_excerpt(); ?>
 
-				    <p><strong><a href="<?php the_permalink(); ?>">View Project</a></strong></p>
+				    <p><strong><a href="<?php the_permalink(); ?>"><?php _e("[:en]View project[:ru]Посмотреть проект[:]"); ?></a></strong></p>
 
 				</aside>
 

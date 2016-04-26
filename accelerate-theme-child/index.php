@@ -38,7 +38,7 @@ get_header(); ?>
 						</div>
 						<footer class="entry-footer">
 							<div class="entry-meta">
-								<span class="entry-terms author">Written by <?php the_author(); ?></span>
+								<span class="entry-terms author"><?php _e("[:en]Written by [:ru]Автор: [:]"); ?> <?php the_author(); ?></span>
 							</div>
 						</footer>
 					</div>

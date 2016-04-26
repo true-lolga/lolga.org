@@ -14,12 +14,21 @@
 
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700&subset=latin,cyrillic,cyrillic-ext,latin-ext);
 
-body, h1? h2, h3, h4, h5, h6, p, a {
+body, h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Fira Sans', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    
+    margin: 5% 0 3%;
+}
 .home-page {
     background: url("img/stockvault-farewell-147798.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 100%;
+    margin: 0 0 5%;
+    padding: 15% 0;
+    max-width: 100%;
 }
 
 #masthead {
@@ -48,6 +57,8 @@ body, h1? h2, h3, h4, h5, h6, p, a {
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
+        padding: 2% 5%;
+        font-family: 'Fira Sans', sans-serif;
 }
 
 
@@ -450,3 +461,57 @@ ul.social-feeds {
 .social-feeds li {
     width: 45%;
 }
+
+
+/* RESPONSIVE */
+
+.site-content, .site-footer, .header-main {
+    width: 80%;
+    padding: 0 5%;
+    }
+
+
+
+
+
+/* parallax 
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__layer--deep {
+  transform: translateZ(-2px) scale(3);
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+ .parallax__layer--back {
+background: rgb(123,210,102);
+} */
+
+
