@@ -53,18 +53,28 @@ get_header(); ?>
 </section>
 
 <section class="recent-posts">
-	<div class="site-content">
-        <div class="blog-post">
-            <h4>From the Blog</h4>
-            <?php query_posts('posts_per_page=1'); ?>
-            <?php while ( have_posts() ) : the_post(); ?>
-                <h2><?php the_title(); ?></h2>
-				<?php the_excerpt(); ?>
-				<a href="<?php the_permalink(); ?>" class="read-more-link">Read More <span>&rsaquo;</span></a>
-			<?php endwhile; // end of the loop. ?>
-			<?php wp_reset_query(); // resets the altered query back to the original ?>
-		</div>
-	</div>
+	<div class="site-content"> 
+        <ul class="social-feeds">
+            <li>
+                <div class="blog-post">
+                    <h4>From the Blog</h4>
+                    <?php query_posts('posts_per_page=1'); ?>
+                    <?php while ( have_posts() ) : the_post(); ?>
+                    <h2><?php the_title(); ?></h2>
+				    <?php the_excerpt(); ?>
+				    <a href="<?php the_permalink(); ?>" class="read-more-link">Read More <span>&rsaquo;</span></a>
+			        <?php endwhile; // end of the loop. ?>
+			        <?php wp_reset_query(); // resets the altered query back to the original ?>
+		        </div>
+            </li>
+
+            <li>
+                <div class="feed">
+                    <?php echo wdi_feed(array('id'=>'1')); ?>
+                </div>
+            </li>
+        </ul>
+    </div>
 </section>
 
 <?php get_footer(); ?>

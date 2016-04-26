@@ -12,6 +12,12 @@
 
 @import url("../accelerate-theme/style.css");
 
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700&subset=latin,cyrillic,cyrillic-ext,latin-ext);
+
+body, h1? h2, h3, h4, h5, h6, p, a {
+    font-family: 'Fira Sans', sans-serif;
+}
+
 .home-page {
     background: url("img/stockvault-farewell-147798.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
@@ -44,26 +50,24 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-.blog-post {
-	width: 50%;
-}
+
 
 .blog-post h4 {
 	font-size: 16px;
-	font-family: 'Montserrat';
+	font-family: 'Fira Sans', sans-serif;
 	color: #a6a6a6;
 	text-transform: uppercase;
 }
 
 .blog-post h2 {
 	font-size: 24px;
-	font-family: 'Montserrat';
+	font-family: 'Fira Sans', sans-serif;
 	font-weight: bold;
 }
 
 .blog-post .read-more-link {
 	font-size: 24px;
-	font-family: 'Montserrat';
+	font-family: 'Fira Sans', sans-serif;
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
@@ -97,6 +101,7 @@ div.project-images img {
 aside.project-sidebar h5 {
 	font-size: 16px;
 	color: #9C9C9C;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 /* Featured work */
@@ -120,6 +125,7 @@ section.featured-work ul {
 }
 
 section.featured-work h4 {
+    font-family: 'Fira Sans', sans-serif;
 	text-align: center;
 }
 
@@ -128,6 +134,7 @@ section.featured-work figure {
 }
 
  .individual-featured-work h5 {
+    font-family: 'Fira Sans', sans-serif;
  	text-align: center;
  	font-weight: 400;
  	margin-top: 20px;
@@ -265,6 +272,7 @@ div.bio-images img {
 }
 
 #ninja_forms_form_1_response_msg p {
+    font-family: 'Fira Sans', sans-serif;
 	margin: 150px;
 }
 
@@ -291,6 +299,7 @@ div.bio-images img {
 }*/
 
 aside.project-arch-sidebar p {
+    font-family: 'Fira Sans', sans-serif;
     margin-top: 24px;
     
 }
@@ -331,15 +340,17 @@ aside.sidebar {
 }*/
 
 #categories-2 h2 {
+    font-family: 'Fira Sans', sans-serif;
 	color: #37B3F1;
 }
 
 #wpp-3 h2 {
+    font-family: 'Fira Sans', sans-serif;
 	color: #37B3F1;
 }
 
 .wpp-post-title {
-    font: 600 15px 'Open Sans';
+    font: 600 15px 'Fira Sans' sans-serif;;
 }
 
 ul.wpp-list {
@@ -390,6 +401,7 @@ a {
 }
 
 .entry-summary a {
+    font-family: 'Fira Sans', sans-serif;
     color: #37B3F1;
     text-decoration: none;
 }
@@ -399,9 +411,42 @@ a {
     }
 
 aside.project-arch-sidebar p {
+    font-family: 'Fira Sans', sans-serif;
 	color: black;
 }
 
 aside.project-arch-sidebar {
 	color: black;
+}
+
+#masthead nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+.homepage-hero h1 {
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.site-footer {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.site-header {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.feed {
+    float: right;
+    margin-left: 10%; 
+}
+
+ul.social-feeds {
+    list-style: none;
+    display: inline-flex;
+}
+
+.social-feeds li {
+    width: 45%;
 }
