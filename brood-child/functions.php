@@ -24,6 +24,11 @@
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 1.0
  */
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+function theme_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+
+}
 
 function create_custom_post_types() {
     register_post_type( 'projects',
@@ -38,13 +43,6 @@ function create_custom_post_types() {
         )
     );
 }
-
 add_action( 'init', 'create_custom_post_types' );
-
-function twentytwelvechild_setup() {
-    register_nav_menu( 'primary-mobile', __( 'Primary Mobile Menu', 'twentytwelvechild' ) );
-}
-add_action( 'after_setup_theme', 'twentytwelvechild_setup' );
-
 
 add_image_size( 'featured-size', 300, 140 );

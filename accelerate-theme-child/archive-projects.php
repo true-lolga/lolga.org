@@ -18,23 +18,28 @@ get_header(); ?>
                 $size = "full"; ?>
 
             <article class="project">
-                <aside class="project-arch-sidebar">
-				    <h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></h3>
-                    <h5><?php echo $services; ?></h5>
-                    <?php the_excerpt(); ?>
+                <ul class="project">
+                    <li class="project-arch-sidebar">
+                        <aside class="project-arch-sidebar">
+				            <h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></h3>
+                            <h5><?php echo $services; ?></h5>
+                            <?php the_excerpt(); ?>
 
-				    <p><strong><a href="<?php the_permalink(); ?>"><?php _e("[:en]View project[:ru]Посмотреть проект[:]"); ?></a></strong></p>
+				            <p><strong><a href="<?php the_permalink(); ?>"><?php _e("[:en]View project[:ru]Посмотреть проект[:]"); ?></a></strong></p>
 
-				</aside>
+				        </aside>
+				    </li>
 
-
-			    <div class="project-images">
-			        <a href="<?php the_permalink(); ?>">
-                    <?php if($image_1) { ?>
-                        <?php echo wp_get_attachment_image( $image_1, $size ); ?>
-                    <?php } ?>
-                    </a>
-                </div>
+                    <li class="project-images">
+			            <div class="project-images">
+			                <a href="<?php the_permalink(); ?>">
+                            <?php if($image_1) { ?>
+                            <?php echo wp_get_attachment_image( $image_1, $size ); ?>
+                            <?php } ?>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
 
             </article>
 

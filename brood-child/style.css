@@ -1,0 +1,533 @@
+/*
+ Theme Name:   Brood Child
+ 
+ Author:       lolga
+ Author URI:   http://lolga.org
+ Template:     brood
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  brood-child
+*/
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700&subset=latin,cyrillic,cyrillic-ext,latin-ext);
+
+body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    
+    margin: 5% 0 3%;
+}
+.home-page {
+    background: url("img/stockvault-farewell-147798.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 100%;
+    margin: 0 0 5%;
+    padding: 15% 0;
+    max-width: 100%;
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+    height: 30px;
+}
+
+#page #masthead {
+    background: none repeat scroll 0 0 #37B3F1;
+    height: 30px;
+} 
+
+
+#masthead nav {
+     display: flex;
+}
+
+/* #masthead a {
+	text-align: center;
+} */
+
+#masthead nav ul li {
+	float: left;
+	margin:0 10px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+        padding: 2% 5%;
+        font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+h1.site-title a:hover {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1.site-title a {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+ a:hover {
+    color: white;
+}
+
+
+.site-header {
+    margin-bottom: 0;
+}
+/* wtf??? */
+
+
+/* Project */
+article.project {
+	margin:40px 0 0;
+}
+
+aside.project-sidebar {
+	float: left;
+	width: 40%;
+	margin: 0 40px 0 0;
+}
+
+div.project-images {
+	float: right;
+	width: 50%;
+
+}
+
+div.project-images img {
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+	margin-top: 10%;
+}
+
+aside.project-sidebar h5 {
+	font-size: 16px;
+	color: #9C9C9C;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Featured work */
+.individual-featured-work {
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 10%;
+    overflow: hidden;
+    margin: 0;
+    margin-right: 3%;
+}
+/*can be used inline-block  */
+
+.featured-work{
+	margin-bottom: 20px
+}
+
+section.featured-work ul {
+	list-style: none;
+
+}
+
+section.featured-work h4 {
+    font-family: 'Fira Sans', sans-serif;
+	text-align: center;
+}
+
+section.featured-work figure {
+	align: center;
+}
+
+ .individual-featured-work h5 {
+    font-family: 'Fira Sans', sans-serif;
+ 	text-align: center;
+ 	font-weight: 400;
+ 	margin-top: 20px;
+ }
+
+ .individual-featured-work li {
+ 	margin: 10px;
+ }
+
+ /*Archive case studies */
+.project-sidebar p {
+    margin-top: 24px;
+}
+
+/* Front page */
+
+div.front-page-text {
+	margin-bottom: 10%
+}
+
+
+.blog-post .read-more-link {
+    color: #37B3F1;
+ }
+
+#masthead {
+    background: none repeat scroll 0 0 #37B3F1;
+    height: 40px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #37B3F1;
+}
+
+.site-navigation {
+
+}
+
+.front-page-text h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.homepage-hero a {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 40%;
+
+}
+
+.individual-featured-work img {
+    margin-left: 10%;
+}
+
+
+
+/*About me */
+
+/*article.bio {
+	margin:40px 0 0;
+}*/
+
+
+aside.bio-sidebar {
+	float: left;
+	width: 60%;
+	margin: 0 20px 0 0;
+}
+
+aside.bio-sidebar a {
+    font-weight: bolder;
+    color: #37B3F1;
+
+}
+
+div.bio-images {
+	float: right;
+	width: 35%;
+	
+}
+
+div.bio-images img {
+	margin-top: 20%;
+	
+}
+
+/* Contact Me*/
+#content {
+	width: 80%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+
+#ninja_forms_field_1_div_wrap {
+    width: 48%;
+    display: inline-block;
+    
+}
+
+
+#ninja_forms_field_2_div_wrap {
+	width: 48%;
+    display: inline-block;
+    float: right;
+
+}
+
+#ninja_forms_field_3_div_wrap {
+    width: 100%;
+
+}
+
+
+#nf_submit_1 {
+	float: right;
+	
+}
+
+#ninja_forms_field_5 {
+	background-color: #37B3F1;
+	color: white;
+	border-color: #37B3F1;
+	width: 220px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#ninja_forms_field_1_label {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#ninja_forms_field_2_label {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#ninja_forms_field_3_label {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#ninja_forms_form_1_response_msg {
+	
+	font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+#ninja_forms_form_1_response_msg p {
+    font-family: 'Fira Sans', sans-serif;
+	margin: 150px;
+}
+
+/* Footer */
+
+.site-description {
+    width: 30%;
+    float: left;
+}
+
+.menu-socnav-container {
+    margin-left: 45%;
+}
+
+.social-media-navigation {
+    float: right;
+    width: 50%;
+    margin-right: 0;
+
+}
+
+.social-media-navigation ul {
+	list-style: none;
+    display: inline-flex;
+    width: 100%;
+}
+
+.social-media-navigation li {
+	margin-left: 5%;
+}
+
+ul.sub-menu {
+    display: inline-flex;
+}
+
+/*.social-media-navigation a {
+	width: 80px;
+}*/
+
+aside.project-arch-sidebar p {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 24px;
+    
+}
+
+aside.project-arch-sidebar {
+    display: inline-block;
+    width: 40%;
+}
+
+/* single post */
+
+.entry-title a:hover {
+    color: #37B3F1;
+}
+
+.main-content {
+    float: left;
+    padding: 55px 47px 0 0;
+    width: 50%;
+    margin-left: 10%;
+}
+
+aside.sidebar {
+    border-left: none;
+    padding: 55px 0;
+    float: left;
+    width: 31%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.archive-page aside.sidebar {
+    border-left: none;
+    padding: 55px 0;
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+/*.widget li a {
+	    color: #37B3F1;
+}*/
+
+#categories-2 h2 {
+    font-family: 'Fira Sans', sans-serif;
+	color: #37B3F1;
+}
+
+#wpp-3 h2 {
+    font-family: 'Fira Sans', sans-serif;
+	color: #37B3F1;
+}
+
+.wpp-post-title {
+    font: 600 15px 'Fira Sans' sans-serif;;
+}
+
+ul.wpp-list {
+	list-style: inherit;
+}
+
+time.entry-time {
+	color: #37B3F1;
+}
+
+
+
+.default-form .submit {
+	background:: #37B3F1;
+}
+
+.comments-area .comment-reply-title {
+	color: #37B3F1;
+}
+
+.form-email {
+   padding-left: 0px; 
+}
+
+.form-email {
+    padding-left: 0px;
+}
+
+.navigation .left, .navigation .right {
+    color: #37B3F1;
+    text-transform: uppercase;
+        margin-left: 5%;
+}
+
+.default-form .submit {
+    background: #37B3F1;
+    width: 206px;
+    height: 55px;
+    font: bold 1.05em/45px 'Montserrat', 'OpenSans', Arial, sans-serif;
+    color: #fff;
+    margin: 24px 0;
+    float: right;
+    border: 0;
+}
+
+a {
+	color: #37B3F1;
+}
+
+.entry-summary a {
+    font-family: 'Fira Sans', sans-serif;
+    color: #37B3F1;
+    text-decoration: none;
+}
+
+#wpp-3 a {
+    font: 600 16px 'Open Sans';
+    }
+
+aside.project-arch-sidebar p {
+    font-family: 'Fira Sans', sans-serif;
+	color: black;
+}
+
+aside.project-arch-sidebar {
+	color: black;
+}
+
+#masthead nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+.homepage-hero h1 {
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.site-footer {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.site-header {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.feed {
+    float: right;
+    margin-left: 30%; 
+}
+
+ul.social-feeds {
+    list-style: none;
+    display: inline-flex;
+}
+
+.social-feeds li {
+    width: 45%;
+}
+
+.wdi_user_img_wrap h3, .wdi_follow_btn, .wdi_media_info, .wdi_load_more_text{
+    color: black;
+}
+
+
+
+
+
+
+
+
